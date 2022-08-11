@@ -1,0 +1,36 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.dinero {
+    margin:  25px;
+    width: 300px;
+    height: 400px;
+}
+
+.dinero img {
+    height: 100%;
+    width: 100%;
+    border: 3px solid green;
+    object-fit: contain;
+    /*object-fit: cover;
+    object-fit: none;
+    object-fit: sacle-down;*/
+}
+
+.caja {
+    margin: 25px;
+    width: 200px;
+height: 300px;
+border: 2px solid red;
+background-color: thistle;
+cursor: crosshair;
+
+
+}
+
+.caja:active {
+    cursor: row-resize;
+    background-color: darksalmon;
+}
+
